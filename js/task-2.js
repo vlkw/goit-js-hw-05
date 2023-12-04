@@ -1,8 +1,8 @@
 'use strict'
 const getUsersWithFriend = (users, friendName) => {
-    users.filter(user => user.friends.includes(friendName))
+   return users.filter(user => user.friends.includes(friendName))
 }
-const allUsers = [
+const allUser = [
     {
       name: "Moore Hensley",
       friends: ["Sharron Pace"]
@@ -33,7 +33,7 @@ const allUsers = [
     }
   ];
   
-  console.log(getUsersWithFriend(allUsers, "Briana Decker")); 
+  console.log(getUsersWithFriend(allUser, "Briana Decker")); 
   // [
   //   {
   //     name: "Sharlene Bush",

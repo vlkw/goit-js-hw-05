@@ -45,7 +45,7 @@ const allUser = [
   //   }
   // ]
   
-  console.log(getUsersWithFriend(allUsers, "Goldie Gentry"));
+  console.log(getUsersWithFriend(allUser, "Goldie Gentry"));
   // [
   //   {
   //     name: "Elma Head",
@@ -57,4 +57,4 @@ const allUser = [
   //   }
   // ]
   
-  console.log(getUsersWithFriend(allUsers, "Adrian Cross" )); // []
+  console.log(getUsersWithFriend(allUser, "Adrian Cross" )); // []
